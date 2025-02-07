@@ -16,8 +16,8 @@ function App() {
     <h1 style={{marginLeft:"450px"}}>React Calculator</h1>
     <input value={Exp} readOnly id="input" style={{marginLeft:"500px"}}></input><br/>
     {
-      
-       <p style={{marginLeft:"550px", height:"20px"}}> {Result} </p>
+      Result && 
+       <div style={{marginLeft:"550px", height:"20px"}}> {Result} </div>
       
     }
     <div style={{marginLeft:"490px", marginTop:"10px"}}>
